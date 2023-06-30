@@ -1,5 +1,8 @@
 -- annonces.sql
 
+CREATE OR REPLACE LANGUAGE plpython3u;
+CREATE OR REPLACE EXTENSION SQLf;
+
 /*
 Pour cet exemple, nous employons une table de 200 enregistrements contenus dans le fichier annonces.dump.
 Ces enregistrements décrivent des véhicules en vente sur un site de petites annonces.
